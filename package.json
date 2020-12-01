@@ -1,0 +1,18 @@
+{
+  "name": "advent-of-code-2020",
+  "version": "1.0.0",
+  "description": "My advent of code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-puzzle-1": "yarn tsc && node dist/puzzle-1.js",
+    "run-puzzle-2": "yarn tsc && node dist/puzzle-2.js"
+  },
+  "author": "Kyle Bastien",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.14.10",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.2"
+  }
+}
