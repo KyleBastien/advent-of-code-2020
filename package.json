@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run-puzzle-1": "yarn tsc && node dist/puzzle-1.js",
-    "run-puzzle-2": "yarn tsc && node dist/puzzle-2.js"
+    "run-puzzle-1": "yarn tsc && node dist/day-1/puzzle-1.js",
+    "run-puzzle-2": "yarn tsc && node dist/day-1/puzzle-2.js",
+    "run-puzzle-3": "yarn tsc && node dist/day-2/puzzle-3.js",
+    "run-puzzle-4": "yarn tsc && node dist/day-2/puzzle-4.js"
   },
   "author": "Kyle Bastien",
   "license": "MIT",
