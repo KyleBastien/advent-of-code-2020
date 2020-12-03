@@ -18,7 +18,3 @@ export const puzzle6 = () => {
 
   return result;
 };
-
-if (process.argv[1].indexOf('puzzle-6') > -1) {
-  console.log(puzzle6());
-}

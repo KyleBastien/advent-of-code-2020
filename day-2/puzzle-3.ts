@@ -31,7 +31,3 @@ export const countNumberOfLettersInPassword = (
   }
   return count;
 };
-
-if (process.argv[1].indexOf('puzzle-3') > -1) {
-  console.log(puzzle3());
-}

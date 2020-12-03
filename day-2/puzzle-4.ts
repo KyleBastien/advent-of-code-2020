@@ -30,7 +30,3 @@ export const doesPasswordHaveCharacterInPositions = (
   }
   return false;
 };
-
-if (process.argv[1].indexOf('puzzle-4') > -1) {
-  console.log(puzzle4());
-}

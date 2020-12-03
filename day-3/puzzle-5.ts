@@ -26,7 +26,3 @@ export const calculateTreesGivenSlope = (
   }
   return treeCount;
 };
-
-if (process.argv[1].indexOf('puzzle-5') > -1) {
-  console.log(puzzle5());
-}

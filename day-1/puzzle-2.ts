@@ -11,10 +11,5 @@ export const puzzle2 = () => {
       break;
     }
   }
-  if (product) {
-    console.log(product);
-  }
   return product;
 };
-
-puzzle2();

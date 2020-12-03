@@ -11,12 +11,5 @@ export const puzzle1 = (target = TARGET_VALUE) => {
     }
     workingSet.add(expense);
   }
-  if (product && target === TARGET_VALUE) {
-    console.log(product);
-  }
   return product;
 };
-
-if (process.argv[1].indexOf('puzzle-1') > -1) {
-  puzzle1();
-}
