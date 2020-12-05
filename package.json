@@ -4,7 +4,7 @@
   "description": "My advent of code",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "lint": "eslint \"./**/*.ts\" --ext .ts",
     "run-puzzle-1": "yarn tsc && yarn node dist/runner/run.js --day=1 --puzzle=1",
     "run-puzzle-2": "yarn tsc && yarn node dist/runner/run.js --day=1 --puzzle=2",
@@ -18,13 +18,20 @@
   "author": "Kyle Bastien",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/jest": "^26.0.16",
     "@types/node": "^14.14.10",
     "@typescript-eslint/eslint-plugin": "^4.9.0",
     "@typescript-eslint/parser": "^4.9.0",
+    "babel-jest": "^26.6.3",
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.6.3",
     "prettier": "^2.2.1",
+    "ts-node": "^9.1.0",
     "typescript": "^4.1.2"
   }
 }

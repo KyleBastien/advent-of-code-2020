@@ -41,10 +41,9 @@ export const puzzle8 = () => {
           break;
         } else {
           const valueRegex = regexs[validPassportField];
-          const value =
-            valueRegex
-              .exec(passport.fullPassportString)?.[0]
-              ?.split(':')?.[1] ?? '';
+          const value = valueRegex
+            .exec(passport.fullPassportString)?.[0]
+            .split(':')[1];
           if (!value) {
             validPassport = false;
             break;
