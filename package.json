@@ -33,7 +33,9 @@
     "run-puzzle-25": "yarn tsc && yarn node dist/runner/run.js --day=13 --puzzle=25",
     "run-puzzle-26": "yarn tsc && yarn node dist/runner/run.js --day=13 --puzzle=26",
     "run-puzzle-27": "yarn tsc && yarn node dist/runner/run.js --day=14 --puzzle=27",
-    "run-puzzle-28": "yarn tsc && yarn node dist/runner/run.js --day=14 --puzzle=28"
+    "run-puzzle-28": "yarn tsc && yarn node dist/runner/run.js --day=14 --puzzle=28",
+    "run-puzzle-29": "yarn tsc && yarn node dist/runner/run.js --day=15 --puzzle=29",
+    "run-puzzle-30": "yarn tsc && yarn node dist/runner/run.js --day=15 --puzzle=30"
   },
   "author": "Kyle Bastien",
   "license": "MIT",
